@@ -1,9 +1,9 @@
 import css from './App.module.css';
-import Sidebar from "./components/Sidebar";
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className={css.App}>
+    <div>
       {/* Add your components here */}
       <Sidebar />
     </div>
