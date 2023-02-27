@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar';
 import StatefulGreeting from './components/StatefulGreeting';
 import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
 import StatefulGreetingWithPrevState from './components/StatefulGreetingWIthPrevState';
+import NavBarSimple from './components/NavBarSimple';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Sidebar /> */}
       {/* <StatefulGreeting /> */}
       {/* <StatefulGreetingWithCallback /> */}
-      <StatefulGreetingWithPrevState />
+      {/* <StatefulGreetingWithPrevState /> */}
+      <NavBarSimple />
     </div>
   );
 }
